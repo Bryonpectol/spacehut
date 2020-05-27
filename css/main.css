@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+.imgicon {
+    width: 50px;
+  }
+
+/* Phone */
+
+  @media only screen and (max-width: 600px) {
+
+  }
+
+  /* Desktop */
+
+  @media only screen and (min-width: 601px) {
+
+  }
