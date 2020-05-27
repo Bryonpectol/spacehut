@@ -14,7 +14,47 @@
       display: none;
     }
 
+    .nav-desk-ul {
+      display: none;
+    }
 
+    .nav-desk-li {
+      display: none;
+    }
+
+    .nav-desk-a {
+      display: none;
+    }
+
+    .nav-desk-a:hover {
+      display: none;
+    }
+
+    .main-desk-div {
+      display: none;
+    }
+
+    .second-desk-div {
+      display: none;
+    }
+
+    .main-desk-main {
+      display: none;
+    }
+
+    .second-desk-main {
+      display: none;
+    }
+
+    .h1-desk {
+      display: none;
+      visibility: hidden;
+    }
+
+    .h2-desk {
+      display: none;
+      visibility: hidden;
+    }
   }
 
   /* Desktop */
@@ -72,13 +112,23 @@
       background-image: url("/images/space.jpg");
     }
 
-    h1 {
+    .h1-desk {
       padding-top: 2vh;
       color: white;
     }
 
-    h2 {
+    .h2-desk {
       padding: 5px;
       color: white;
+    }
+
+    .hut-word-desk {
+      color: cyan;
+      padding-top: 5px;
+    }
+
+    .h2-direction {
+      display: flex;
+      flex-direction: row;
     }
   }
