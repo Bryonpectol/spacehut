@@ -23,14 +23,16 @@ CategoriesBoxes.forEach(SpaceCategories => {
     let linkDiv = document.createElement("a");
 
     MainDiv.textContent = SpaceCategories.Name;
-    imgDiv.textContent = SpaceCategories.IMG;
-    linkDiv.textContent = SpaceCategories.LINK;
+    imgDiv.src = SpaceCategories.IMG;
+    linkDiv.href = SpaceCategories.LINK;
 
-    mainContainer.appendChild(MainDiv);
-    MainDiv.appendChild(imgDiv);
-    MainDiv.appendChild(linkDiv);
+    mainContainer.appendChild(linkDiv);
+    // linkDiv.appendChild(MainDiv);
+    linkDiv.appendChild(imgDiv);
 
     MainDiv.className = "MainDiv";
+    imgDiv.className = "imgDiv";
+    linkDiv.className = "linkDiv";
 
     
 });

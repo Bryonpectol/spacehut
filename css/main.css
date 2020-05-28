@@ -51,6 +51,14 @@
       display: none;
       visibility: hidden;
     }
+
+    .footer-desk {
+      display: none;
+    }
+
+    .footer-text {
+      display: none;
+    }
   }
 
   /* Desktop */
@@ -79,6 +87,7 @@
       background-color: #2481A6;
       padding: 15px;
       border-radius: 50px;
+      font-family: 'Moondance', 'Times', cursive;
     }
 
     .nav-desk-a:hover {
@@ -87,6 +96,21 @@
       /* transform: translate(0, 20, 0); */
       box-shadow: #7EB3BF 5px 5px 5px;
     }
+
+    @font-face {
+      font-family: Odin;
+      src: url(/fonts/odin.otf);
+   }
+
+   @font-face {
+    font-family: Andromeda;
+    src: url(/fonts/AndromedaTV.TTF);
+ }
+
+ @font-face {
+  font-family: Moondance;
+  src: url(/fonts/Moondance.otf);
+}
 
     .main-desk-div {
       margin-left: 20px;

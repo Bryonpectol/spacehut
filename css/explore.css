@@ -55,8 +55,9 @@
       text-decoration: none;
       color: white;
       background-color: #2481A6;
-      padding: 15px;
+      padding: 20px;
       border-radius: 50px;
+      font-family: 'Moondance', 'Times', cursive;
     }
 
     .nav-desk-a:hover {
@@ -65,9 +66,74 @@
       /* transform: translate(0, 20, 0); */
       box-shadow: #7EB3BF 5px 5px 5px;
     }
+    
+    @font-face {
+        font-family: Odin;
+        src: url(/fonts/odin.otf);
+     }
+
+     @font-face {
+        font-family: SpaceMono;
+        src: url(/fonts/SpaceMono-Regular.ttf);
+     }
+
+     @font-face {
+        font-family: spacejunkXL;
+        src: url(/fonts/spacejunkXL.ttf);
+     }
+
+     @font-face {
+        font-family: Moondance;
+        src: url(/fonts/Moondance.otf);
+     }
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
+    }
 
     .MainDiv {
-        width: 500px;
-        background-color: black;
+        width: 100%;
+        /* background-color: blue; */
+        color: black;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* margin-left: 50px; */
+        margin-right: 50px;
+        margin-top: 20px;
+        text-decoration: none;
+        border: black 2px solid;
+    }
+
+    .linkDiv:hover {
+
+    }
+
+    .imgDiv {
+        width: 100px;
+        /* text-align: center; */
+        margin-left: 25px;
+        margin-top: 5px;
+        border: black 3px solid;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .imgDiv:hover {
+        box-shadow: #7EB3BF 5px 5px 5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        text-decoration: none;
+        /* margin: 20px; */
+        margin-top: 50px;
+        /* padding: 50px; */
     }
   }
