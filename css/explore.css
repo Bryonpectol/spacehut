@@ -66,5 +66,8 @@
       box-shadow: #7EB3BF 5px 5px 5px;
     }
 
-    
+    .MainDiv {
+        width: 500px;
+        background-color: black;
+    }
   }

@@ -9,7 +9,7 @@
 
 /* Phone */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1500px) {
     .navdesktop {
       display: none;
     }
@@ -55,7 +55,7 @@
 
   /* Desktop */
 
-  @media only screen and (min-width: 601px) {
+  @media only screen and (min-width: 1501px) {
     .navdesktop {
       width: 100%;
       display: flex;
