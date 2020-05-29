@@ -24,7 +24,7 @@ src: url(/fonts/Moondance.otf);
 
 /* Phone */
 
-  @media only screen and (max-width: 2000px) {
+  @media only screen and (max-width: 1080px) {
 
 
     .NONE {
@@ -41,7 +41,7 @@ src: url(/fonts/Moondance.otf);
 
     .imgicon-mobile {
       width: 200px;
-      display-flex: flex;
+      display: flex;
       justify-content: center;
     }
 
@@ -79,12 +79,6 @@ src: url(/fonts/Moondance.otf);
       box-shadow: #7EB3BF 5px 5px 5px;
     }
 
-    .navdesktop {
-      display: none;
-    }
-@media only screen and (max-width: 1080px) {
-
-
   .none {
     display: none;
   }
@@ -99,7 +93,7 @@ src: url(/fonts/Moondance.otf);
 
   .imgicon-mobile {
     width: 200px;
-    display-flex: flex;
+    display: flex;
     justify-content: center;
   }
 
@@ -270,7 +264,8 @@ src: url(/fonts/Moondance.otf);
   .arrow-down-desk {
     width: 100px;
     padding-top: 67vh;
-    float: bottom;
+    /* float: bottom; */
+    padding-left: 80%;
   }
 
   .footer-desk {

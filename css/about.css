@@ -7,6 +7,21 @@
     width: 100px;
   }
 
+  @font-face {
+    font-family: Odin;
+    src: url(/fonts/odin.otf);
+ }
+
+ @font-face {
+  font-family: Andromeda;
+  src: url(/fonts/AndromedaTV.TTF);
+}
+
+@font-face {
+font-family: Moondance;
+src: url(/fonts/Moondance.otf);
+}
+
 /* Phone */
 
   @media only screen and (max-width: 600px) {
@@ -34,62 +49,88 @@
   /* Desktop */
 
   @media only screen and (min-width: 601px) {
+
     .navdesktop {
-      width: 100%;
-      display: flex;
-      background-color: #081526;
-    }
+    width: 100%;
+    display: flex;
+    background-color: #081526;
+  }
 
-    .nav-desk-ul {
-      display: flex;
-      flex-direction: row;
-    }
+  .nav-desk-ul {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .nav-desk-li {
-      list-style-type: none;
-      margin-top: 6vh;
-      margin-left: 50px;
-    }
+  .nav-desk-li {
+    list-style-type: none;
+    margin-top: 6vh;
+    margin-left: 50px;
+  }
 
-    .nav-desk-a {
-      text-decoration: none;
-      color: white;
-      background-color: #2481A6;
-      padding: 15px;
-      border-radius: 50px;
-    }
+  .nav-desk-a {
+    text-decoration: none;
+    color: white;
+    background-color: #2481A6;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: 'Moondance', 'Times', cursive;
+  }
 
-    .nav-desk-a:hover {
-      color: #0F3759;
-      background-color: white;
-      /* transform: translate(0, 20, 0); */
-      box-shadow: #7EB3BF 5px 5px 5px;
-    }
+  .nav-desk-a:hover {
+    color: #0F3759;
+    background-color: white;
+    /* transform: translate(0, 20, 0); */
+    box-shadow: #7EB3BF 5px 5px 5px;
+  }
 
     .about-main-desk {
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
     }
 
     .h2-direction {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
       }
 
       .h1-desk {
         padding-top: 2vh;
         color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
       }
   
       .h2-desk {
         padding: 5px;
         color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
       }
 
       .hut-word-desk {
         color: black;
         padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
+        padding-left: 2px;
+      }
+
+      .p-about-desk {
+        padding: 5px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'helvetica', Arial, serif;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        font-size: 20px;
       }
   }
