@@ -11,14 +11,23 @@ let NavMobileA2 = document.getElementById("nav-mobile-a-two");
 let NavMobileA3 = document.getElementById("nav-mobile-a-three");
 let NavMobileA4 = document.getElementById("nav-mobile-a-four");
 
-NavMobileElement = false;
-ImgIconMobile = false;
-NavMobileUl = false;
-NavMobileLi1 = false;
-NavMobileLi2 = false;
-NavMobileLi3 = false;
-NavMobileLi4 = false;
-NavMobileA1 = false;
-NavMobileA2 = false;
-NavMobileA3 = false;
-NavMobileA4 = false;
+let menuBtn = document.getElementById("menuBtn");
+
+menuBtn = false;
+
+if(menuBtn = false) {
+
+NavMobileElement.ClassName = "NONE";
+ImgIconMobile.ClassName = "NONE";
+NavMobileUl.ClassName = "NONE";
+NavMobileLi1.ClassName = "NONE";
+NavMobileLi2.ClassName = "NONE";
+NavMobileLi3.ClassName = "NONE";
+NavMobileLi4.ClassName = "NONE";
+NavMobileA1.ClassName = "NONE";
+NavMobileA2.ClassName = "NONE";
+NavMobileA3.ClassName = "NONE";
+NavMobileA4.ClassName = "NONE";
+
+ }
+
