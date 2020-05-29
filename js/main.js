@@ -11,7 +11,7 @@ let NavMobileA2 = document.getElementById("nav-mobile-a-two");
 let NavMobileA3 = document.getElementById("nav-mobile-a-three");
 let NavMobileA4 = document.getElementById("nav-mobile-a-four");
 
-let menuBtn = document.getElementById("menuBtn");
+let menuBtn = document.createElement("button");
 
 menuBtn = false;
 
@@ -31,3 +31,4 @@ NavMobileA4.ClassName = "NONE";
 
  }
 
+document.body.appendChild(menuBtn);
