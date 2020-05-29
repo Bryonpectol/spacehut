@@ -15,6 +15,7 @@
       width: 100%;
       display: flex;
       background-color: darkblue;
+      justify-content: center;
     }
 
     .imgicon-mobile {
@@ -30,6 +31,7 @@
     .nav-mobile-li {
       list-style-type: none;
       margin-left: 50px;
+      margin-top: 2vh;
     }
 
     .nav-mobile-a {
