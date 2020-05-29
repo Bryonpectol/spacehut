@@ -17,9 +17,14 @@
       background-color: darkblue;
     }
 
+    .imgicon-mobile {
+      width: 50px;
+    }
+
     .nav-mobile-ul {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .nav-mobile-li {
