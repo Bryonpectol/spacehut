@@ -18,18 +18,17 @@
     }
 
     .imgicon-mobile {
-      width: 100px;
+      width: 120px;
     }
 
     .nav-mobile-ul {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
     }
 
     .nav-mobile-li {
       list-style-type: none;
-      margin-top: 6vh;
       margin-left: 50px;
     }
 
