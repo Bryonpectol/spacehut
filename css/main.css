@@ -10,6 +10,40 @@
 /* Phone */
 
   @media only screen and (max-width: 1500px) {
+
+    .navmobile {
+      width: 100%;
+      display: flex;
+      background-color: darkblue;
+    }
+
+    .nav-mobile-ul {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .nav-mobile-li {
+      list-style-type: none;
+      margin-top: 6vh;
+      margin-left: 50px;
+    }
+
+    .nav-mobile-a {
+      text-decoration: none;
+      color: white;
+      background-color: #2481A6;
+      padding: 15px;
+      border-radius: 50px;
+      font-family: 'Moondance', 'Times', cursive;
+    }
+
+    .nav-mobile-a:hover {
+      color: #0F3759;
+      background-color: white;
+      /* transform: translate(0, 20, 0); */
+      box-shadow: #7EB3BF 5px 5px 5px;
+    }
+
     .navdesktop {
       display: none;
     }
