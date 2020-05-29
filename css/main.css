@@ -1,173 +1,254 @@
 * {
-    margin: 0px;
-    padding: 0px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
 .imgicon {
-    width: 100px;
-  }
+  width: 100px;
+}
 
-/* Phone */
-
-  @media only screen and (max-width: 1100px) {
-    .navdesktop {
-      display: none;
-    }
-
-    .nav-desk-ul {
-      display: none;
-    }
-
-    .nav-desk-li {
-      display: none;
-    }
-
-    .nav-desk-a {
-      display: none;
-    }
-
-    .main-desk-div {
-      display: none;
-    }
-
-    .second-desk-div {
-      display: none;
-    }
-
-    .main-desk-main {
-      display: none;
-    }
-
-    .second-desk-main {
-      display: none;
-    }
-
-    .h1-desk {
-      display: none;
-      visibility: hidden;
-    }
-
-    .h2-desk {
-      display: none;
-      visibility: hidden;
-    }
-
-    .footer-desk {
-      display: none;
-    }
-
-    .footer-text {
-      display: none;
-    }
-  }
-
-  /* Desktop */
-
-  @media only screen and (min-width: 1101px) {
-    .navdesktop {
-      width: 100%;
-      display: flex;
-      background-color: #081526;
-    }
-
-    .nav-desk-ul {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .nav-desk-li {
-      list-style-type: none;
-      margin-top: 6vh;
-      margin-left: 50px;
-    }
-
-    .nav-desk-a {
-      text-decoration: none;
-      color: white;
-      background-color: #2481A6;
-      padding: 15px;
-      border-radius: 50px;
-      font-family: 'Moondance', 'Times', cursive;
-    }
-
-    .nav-desk-a:hover {
-      color: #0F3759;
-      background-color: white;
-      /* transform: translate(0, 20, 0); */
-      box-shadow: #7EB3BF 5px 5px 5px;
-    }
-
-    @font-face {
-      font-family: Odin;
-      src: url(/fonts/odin.otf);
-   }
-
-   @font-face {
-    font-family: Andromeda;
-    src: url(/fonts/AndromedaTV.TTF);
+@font-face {
+    font-family: Odin;
+    src: url(/fonts/odin.otf);
  }
 
  @font-face {
-  font-family: Moondance;
-  src: url(/fonts/Moondance.otf);
+  font-family: Andromeda;
+  src: url(/fonts/AndromedaTV.TTF);
 }
 
-    .main-desk-div {
-      margin-left: 20px;
-    }
+@font-face {
+font-family: Moondance;
+src: url(/fonts/Moondance.otf);
+}
 
-    .second-desk-div {
-      
-    }
+/* Phone */
 
-    .main-desk-main {
-      background-image: url("/images/earth.jpg");
-      width: 100%;
-      height: 85.5vh;
-    }
+@media only screen and (max-width: 1080px) {
 
-    .second-desk-main {
-      background-color: #0F3759;
-      height: 100vh;
-      background-image: url("/images/space.jpg");
-    }
 
-    .h1-desk {
-      padding-top: 2vh;
-      color: white;
-    }
-
-    .h2-desk {
-      padding: 5px;
-      color: white;
-    }
-
-    .hut-word-desk {
-      color: cyan;
-      padding-top: 5px;
-    }
-
-    .h2-direction {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .arrow-down-desk {
-      width: 100px;
-      padding-top: 67vh;
-      float: bottom;
-    }
-
-    .footer-desk {
-      width: 100%;
-      height: 15vh;
-      background-color: #081526;
-    }
-
-    .footer-text {
-      color: white;
-      display: flex;
-      justify-content: center;
-      padding-top: 50px;
-    }
+  .none {
+    display: none;
   }
+
+  .navmobile {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    background-color: #081526;
+    justify-content: center;
+  }
+
+  .imgicon-mobile {
+    width: 200px;
+    display-flex: flex;
+    justify-content: center;
+  }
+
+  .nav-mobile-ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .nav-mobile-li {
+    list-style-type: none;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-mobile-a {
+    text-decoration: none;
+    color: white;
+    background-color: #2481A6;
+    padding: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: 'Moondance', 'Times', cursive;
+  }
+
+  .nav-mobile-a:hover {
+    color: #0F3759;
+    background-color: white;
+    /* transform: translate(0, 20, 0); */
+    box-shadow: #7EB3BF 5px 5px 5px;
+  }
+
+  .navdesktop {
+    display: none;
+  }
+
+  .nav-desk-ul {
+    display: none;
+  }
+
+  .nav-desk-li {
+    display: none;
+  }
+
+  .nav-desk-a {
+    display: none;
+  }
+
+  .main-desk-div {
+    display: none;
+  }
+
+  .second-desk-div {
+    display: none;
+  }
+
+  .main-desk-main {
+    display: none;
+  }
+
+  .second-desk-main {
+    display: none;
+  }
+
+  .h1-desk {
+    display: none;
+    visibility: hidden;
+  }
+
+  .h2-desk {
+    display: none;
+    visibility: hidden;
+  }
+
+  .footer-desk {
+    display: none;
+  }
+
+  .footer-text {
+    display: none;
+  }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1081px) {
+  
+  .navdesktop {
+    width: 100%;
+    display: flex;
+    background-color: #081526;
+  }
+
+  .nav-desk-ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-desk-li {
+    list-style-type: none;
+    margin-top: 6vh;
+    margin-left: 50px;
+  }
+
+  .nav-desk-a {
+    text-decoration: none;
+    color: white;
+    background-color: #2481A6;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: 'Moondance', 'Times', cursive;
+  }
+
+  .nav-desk-a:hover {
+    color: #0F3759;
+    background-color: white;
+    /* transform: translate(0, 20, 0); */
+    box-shadow: #7EB3BF 5px 5px 5px;
+  }
+
+  
+
+  .main-desk-div {
+    margin-left: 20px;
+  }
+
+  .second-desk-div {
+    
+  }
+
+  .main-desk-main {
+    background-image: url("/images/earth.jpg");
+    width: 100%;
+    height: 85.5vh;
+  }
+
+  .second-desk-main {
+    background-color: #0F3759;
+    height: 100vh;
+    background-image: url("/images/space.jpg");
+  }
+
+  .h1-desk {
+    padding-top: 2vh;
+    color: white;
+  }
+
+  .h2-desk {
+    padding: 5px;
+    color: white;
+  }
+
+  .hut-word-desk {
+    color: cyan;
+    padding-top: 5px;
+  }
+
+  .h2-direction {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .arrow-down-desk {
+    width: 100px;
+    padding-top: 67vh;
+    float: bottom;
+  }
+
+  .footer-desk {
+    width: 100%;
+    height: 15vh;
+    background-color: #081526;
+  }
+
+  .footer-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .navmobile {
+    display: none;
+  }
+
+  .imgicon-mobile {
+    display: none;
+  }
+
+  .nav-mobile-ul {
+    display: none;
+  }
+
+  .nav-mobile-li {
+    display: none;
+  }
+
+  .nav-mobile-a {
+    display: none;
+  }
+
+  .nav-mobile-a:hover {
+    display: none;
+  }
+}
