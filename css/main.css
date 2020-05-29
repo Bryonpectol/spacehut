@@ -48,7 +48,6 @@
 
     .nav-mobile-li {
       list-style-type: none;
-      margin-top: 3vh;
       padding-left: 150px;
       padding-right: 150px;
     }
@@ -57,9 +56,10 @@
       text-decoration: none;
       color: white;
       background-color: #2481A6;
+      margin-top: 2vh;
       padding: 50px;
-      padding-right: 150px;
-      padding-left: 150px;
+      padding-right: 200px;
+      padding-left: 200px;
       border-radius: 50px;
       font-size: 50px;
       font-family: 'Moondance', 'Times', cursive;
