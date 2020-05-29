@@ -24,7 +24,7 @@
 
 /* Phone */
 
-  @media only screen and (max-width: 1500px) {
+  @media only screen and (max-width: 6.7in) {
 
     .navmobile {
       width: 100%;
@@ -124,7 +124,7 @@
 
   /* Desktop */
 
-  @media only screen and (min-width: 1501px) {
+  @media only screen and (min-width: 6.8in) {
     
     .navdesktop {
       width: 100%;
