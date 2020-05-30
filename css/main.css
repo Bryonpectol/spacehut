@@ -244,16 +244,20 @@ src: url(/fonts/Moondance.otf);
   .h1-desk {
     padding-top: 2vh;
     color: white;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
   }
 
   .h2-desk {
     padding: 5px;
     color: white;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
   }
 
   .hut-word-desk {
     color: cyan;
     padding-top: 5px;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+    margin-left: 2px;
   }
 
   .h2-direction {
@@ -265,7 +269,7 @@ src: url(/fonts/Moondance.otf);
     width: 100px;
     padding-top: 67vh;
     /* float: bottom; */
-    padding-left: 80%;
+    padding-left: 22vh;
   }
 
   .footer-desk {

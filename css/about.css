@@ -25,6 +25,71 @@ src: url(/fonts/Moondance.otf);
 /* Phone */
 
   @media only screen and (max-width: 600px) {
+
+    .navmobile {
+      width: 100%;
+      height: 55vh;
+      display: flex;
+      background-color: #081526;
+      justify-content: center;
+    }
+  
+    .imgicon-mobile {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .nav-mobile-ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    .nav-mobile-li {
+      list-style-type: none;
+      padding-left: 150px;
+      padding-right: 150px;
+      margin-top: 3vh;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .nav-mobile-a {
+      text-decoration: none;
+      color: white;
+      background-color: #2481A6;
+      padding: 50px;
+      padding-right: 200px;
+      padding-left: 200px;
+      border-radius: 50px;
+      font-size: 50px;
+      font-family: 'Moondance', 'Times', cursive;
+    }
+  
+    .nav-mobile-a:hover {
+      color: #0F3759;
+      background-color: white;
+      /* transform: translate(0, 20, 0); */
+      box-shadow: #7EB3BF 5px 5px 5px;
+    }
+  
+    .navdesktop {
+      display: none;
+    }
+  
+    .nav-desk-ul {
+      display: none;
+    }
+  
+    .nav-desk-li {
+      display: none;
+    }
+  
+    .nav-desk-a {
+      display: none;
+    }
+
     .navdesktop {
       display: none;
     }
@@ -41,9 +106,78 @@ src: url(/fonts/Moondance.otf);
       display: none;
     }
 
-    
+    .about-div-desk {
+      display: none;
+    }
 
+    .about-div-mobile {
+      /* width: 150vh; */
+      /* margin-left: 15.5%; */
+    }
     
+    .p-about-mobile {
+      /* padding: 5px; */
+      color: black;
+      display: flex;
+      justify-content: center;
+      font-family: 'helvetica', Arial, serif;
+      flex-wrap: wrap;
+      margin-top: 2vh;
+      font-size: 20px;
+      line-height: 5vh;
+    }
+
+    .p-about-desk {
+      display: none;
+    }
+
+    .about-main-desk {
+      display: none;
+  }
+
+  .about-main-mobile {
+    width: 100%;
+    margin-top: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+}
+
+  .h2-direction {
+    display: none;
+  }
+
+  .h1-desk {
+    display: none;
+  }
+
+  .h2-desk {
+    display: none;
+  }
+
+  .h2-direction-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
+
+  .h1-mobile {
+    padding-top: 2vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
+
+  .h2-mobile {
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
   }
 
   /* Desktop */
@@ -114,6 +248,15 @@ src: url(/fonts/Moondance.otf);
         font-family: 'Odin', 'Times New Roman', Times, serif;
       }
 
+      .about-div-desk {
+        width: 150vh;
+        margin-left: 15.5%;
+      }
+
+      .about-div-mobile {
+        display: none;
+      }
+
       .hut-word-desk {
         color: black;
         padding-top: 5px;
@@ -132,5 +275,42 @@ src: url(/fonts/Moondance.otf);
         flex-wrap: wrap;
         margin-top: 2vh;
         font-size: 20px;
+        line-height: 5vh;
+      }
+
+      .h2-direction-mobile {
+        display: none;
+      }
+    
+      .h1-mobile {
+        display: none;
+      }
+    
+      .h2-mobile {
+        display: none;
+      }
+
+      .navmobile {
+        display: none;
+      }
+    
+      .imgicon-mobile {
+        display: none;
+      }
+    
+      .nav-mobile-ul {
+        display: none;
+      }
+    
+      .nav-mobile-li {
+        display: none;
+      }
+    
+      .nav-mobile-a {
+        display: none;
+      }
+    
+      .nav-mobile-a:hover {
+        display: none;
       }
   }
