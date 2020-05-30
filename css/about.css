@@ -24,7 +24,7 @@ src: url(/fonts/Moondance.otf);
 
 /* Phone */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1080px) {
 
     .navmobile {
       width: 100%;
@@ -182,7 +182,7 @@ src: url(/fonts/Moondance.otf);
 
   /* Desktop */
 
-  @media only screen and (min-width: 601px) {
+  @media only screen and (min-width: 1081px) {
 
     .navdesktop {
     width: 100%;
