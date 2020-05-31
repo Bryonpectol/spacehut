@@ -162,8 +162,8 @@ src: url(/fonts/Moondance.otf);
     flex-direction: row;
     justify-content: center;
     font-family: 'Odin', 'Times New Roman', Times, serif;
-    font-size: 27px;
-    
+    font-size: 40px;
+    padding-top: 25px;
   }
 
   .h1-mobile {
@@ -172,7 +172,7 @@ src: url(/fonts/Moondance.otf);
     display: flex;
     justify-content: center;
     font-family: 'Odin', 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .h2-mobile {
@@ -181,7 +181,7 @@ src: url(/fonts/Moondance.otf);
     display: flex;
     justify-content: center;
     font-family: 'Odin', 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 60px;
   }
   }
 
