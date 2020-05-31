@@ -137,8 +137,8 @@ src: url(/fonts/Moondance.otf);
 
   .about-main-mobile {
     width: 75%;
-    margin-left:10vh;
-    margin-top: 80vh;
+    margin-left:8vh;
+    margin-top: 0vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
