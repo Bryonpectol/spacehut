@@ -27,58 +27,6 @@ src: url(/fonts/Moondance.otf);
   @media only screen and (max-width: 1080px) {
 
 
-    .NONE {
-      display: none;
-    }
-
-    .navmobile {
-      width: 100%;
-      height: 55vh;
-      display: flex;
-      background-color: #081526;
-      justify-content: center;
-    }
-
-    .imgicon-mobile {
-      width: 200px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .nav-mobile-ul {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-
-    .nav-mobile-li {
-      list-style-type: none;
-      padding-left: 150px;
-      padding-right: 150px;
-      margin-top: 3vh;
-      display: flex;
-      justify-content: center;
-    }
-
-    .nav-mobile-a {
-      text-decoration: none;
-      color: white;
-      background-color: #2481A6;
-      padding: 50px;
-      padding-right: 200px;
-      padding-left: 200px;
-      border-radius: 50px;
-      font-size: 50px;
-      font-family: 'Moondance', 'Times', cursive;
-    }
-
-    .nav-mobile-a:hover {
-      color: #0F3759;
-      background-color: white;
-      /* transform: translate(0, 20, 0); */
-      box-shadow: #7EB3BF 5px 5px 5px;
-    }
-
   .none {
     display: none;
   }
