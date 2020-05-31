@@ -104,7 +104,12 @@
       padding: 20px;
   }
     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
   }
+}
 
   /* Desktop */
 
