@@ -27,10 +27,52 @@
   src: url(/fonts/Moondance.otf);
 }
 
+.contactDivMain {
+  width: 75vh;
+  margin-left: 33%;
+  border: 2px solid #081526;
+  border-radius: 40px;
+  height: 60vh;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px #081526;
+}
+
 h1 {
 text-align: center;
 margin-top: 50px;
 font-family: 'Odin', 'Times New Roman', Times, serif;
+}
+
+p {
+  text-align: center;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactlinks {
+  /* text-align: center; */
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid #081526;
+  width: 75px;
+  text-decoration: none;
+  color: #081526;
+  padding: 10px;
+  margin-left: 42%;
+  box-shadow: 5px 5px 5px #081526;
+  border-radius: 10px;
+}
+
+.contactlinks:hover {
+  background-color: #081526;
+  color: white;
+  box-shadow: none;
 }
 
 /* Phone */
