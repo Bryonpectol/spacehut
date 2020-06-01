@@ -110,6 +110,12 @@ font-family: 'Odin', 'Times New Roman', Times, serif;
     padding: 20px;
 }
   
+.contact-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
 
 }
 
@@ -197,6 +203,14 @@ font-family: 'Odin', 'Times New Roman', Times, serif;
       /* margin: 20px; */
       margin-top: 50px;
       /* padding: 50px; */
+  }
+
+  .contact-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 25%;
   }
 
   .navmobile {
