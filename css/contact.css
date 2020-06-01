@@ -41,7 +41,7 @@ font-family: 'Odin', 'Times New Roman', Times, serif;
 
   .contactDivMain {
     width: 40vh;
-    /* margin-left: 33%; */
+    margin-left: 10%;
     border: 2px solid #081526;
     border-radius: 40px;
     height: 60vh;
