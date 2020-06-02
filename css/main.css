@@ -26,6 +26,13 @@ src: url(/fonts/Moondance.otf);
 
   @media only screen and (max-width: 1080px) {
 
+  h1 {
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
+
+  h2 {
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
 
   .none {
     display: none;
