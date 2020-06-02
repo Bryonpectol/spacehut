@@ -28,10 +28,16 @@ src: url(/fonts/Moondance.otf);
 
   h1 {
     font-family: 'Odin', 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
   }
 
   h2 {
     font-family: 'Odin', 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4vh;
   }
 
   .none {
