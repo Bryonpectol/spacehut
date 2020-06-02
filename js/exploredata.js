@@ -40,5 +40,26 @@ export const categories = [
         "img" : "/images/constellation-icon.png",
         "link" : "/html/constellations.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
+    },
+    {
+        "name" : "Countries / Companies",
+        "id" : 7,
+        "img" : "/images/flag-icon.png",
+        "link" : "/html/countries.html",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    },
+    {
+        "name" : "Rockets",
+        "id" : 7,
+        "img" : "/images/rocket-icon.png",
+        "link" : "/html/rockets.html",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    },
+    {
+        "name" : "Extra-Terresitral Life",
+        "id" : 8,
+        "img" : "/images/alien-icon.png",
+        "link" : "/html/aliens.html",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
     }
 ]
