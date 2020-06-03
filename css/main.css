@@ -30,6 +30,11 @@ src: url(/fonts/Moondance.otf);
     font-family: 'Odin', 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
+    /* margin-top: 50px; */
+  }
+
+  .mobile-main-div {
+    margin-top: 50px;
   }
 
   h2 {
