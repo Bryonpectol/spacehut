@@ -36,9 +36,9 @@ src: url(/fonts/Moondance.otf);
   }
 
   .mobile-main-div {
-    margin-top: 75px;
+    padding-top: 75px;
     background-image: url("/images/earth.jpg");
-    height: 85.5vh;
+    height: 60vh;
   }
 
   h2 {
