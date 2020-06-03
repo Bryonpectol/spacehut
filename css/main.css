@@ -122,6 +122,10 @@ src: url(/fonts/Moondance.otf);
     display: none;
   }
 
+  .weekly-photo-mobile {
+    width: 75vh;
+  }
+
   .navdesktop {
     display: none;
   }
