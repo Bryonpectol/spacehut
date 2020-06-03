@@ -41,6 +41,14 @@ src: url(/fonts/Moondance.otf);
     height: 80vh;
   }
 
+  .weekly-photo-mobile {
+
+  }
+
+  .weekly-photo-desk {
+    display: none;
+  }
+
   h2 {
     font-family: 'Odin', 'Times New Roman', Times, serif;
     display: flex;
@@ -101,6 +109,17 @@ src: url(/fonts/Moondance.otf);
     background-color: white;
     /* transform: translate(0, 20, 0); */
     box-shadow: #7EB3BF 5px 5px 5px;
+  }
+
+  .h2-weekly-mobile {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
+
+  .h2-weekly-desk {
+    display: none;
   }
 
   .navdesktop {
@@ -191,14 +210,43 @@ src: url(/fonts/Moondance.otf);
     box-shadow: #7EB3BF 5px 5px 5px;
   }
 
-  
+  .mobile-main-div {
+    display: none;
+  }
+
+  .h2-weekly-desk {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+  }
+
+  .h2-weekly-mobile {
+    display: none;
+  }
 
   .main-desk-div {
     margin-left: 20px;
   }
 
   .second-desk-div {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .weekly-photo-desk {
+    width: 75%;
+    border: 10px solid white;
+  }
+
+  .weeklyDiv {
+    margin-left: 21%;
+  }
+
+  .weekly-photo-mobile {
+    display: none;
   }
 
   .main-desk-main {
