@@ -183,6 +183,12 @@ src: url(/fonts/Moondance.otf);
     font-family: 'Odin', 'Times New Roman', Times, serif;
     font-size: 60px;
   }
+
+  .img-paypal-mobile {
+    margin-left: 25%;
+    margin-top: 25px;
+    width: 20vh;
+  }
   }
 
   /* Desktop */
@@ -220,6 +226,21 @@ src: url(/fonts/Moondance.otf);
     background-color: white;
     /* transform: translate(0, 20, 0); */
     box-shadow: #7EB3BF 5px 5px 5px;
+  }
+
+  .a-paypal-desk {
+    margin-left: 25%;
+    width: 20vh;
+  }
+
+  .img-paypal-mobile {
+    display: none;
+  }
+
+  .img-paypal-desk {
+    width: 20vh;
+    margin-left: 18%;
+    margin-top: 40px;
   }
 
     .about-main-desk {
