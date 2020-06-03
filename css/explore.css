@@ -112,6 +112,7 @@
 
     h1 {
       font-size: 50px;
+      margin-top: 50px;
     }  
     
     .MainDiv {
@@ -128,6 +129,18 @@
       border: black 2px solid;
       text-align: center;
   }
+
+  .container {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    /* margin: 20px; */
+    margin-top: 50px;
+    /* padding: 50px; */
+}
 
   .linkDiv {
     text-align: center;
