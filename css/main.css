@@ -123,7 +123,8 @@ src: url(/fonts/Moondance.otf);
   }
 
   .weekly-photo-mobile {
-    width: 50vh;
+    width: 40vh;
+    margin-left: 25%;
   }
 
   .navdesktop {
