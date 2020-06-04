@@ -311,6 +311,23 @@ src: url(/fonts/Moondance.otf);
     background-image: url("/images/third.jpg");
   }
 
+  .MainDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .conainter {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .imgDiv {
+    width: 65vh;
+    padding: 10px;
+  }
+
   .h1-desk {
     padding-top: 2vh;
     color: white;

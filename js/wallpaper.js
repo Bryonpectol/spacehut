@@ -1,7 +1,7 @@
 import { photos } from "../js/wallpaperdata.js";
 
-const mainContainer = document.createElement("div");
-mainContainer.className = "container";
+const MainContainer = document.getElementById("container");
+MainContainer.className = "container";
 
 const PhotoBoxes = photos.map(SpacePhotos => {
     let CatBox = photos.find(Cat => {
@@ -22,17 +22,20 @@ PhotoBoxes.forEach(SpacePhotos => {
     let imgDiv = document.createElement("img");
     let linkDiv = document.createElement("a");
 
-    MainDiv.textContent = SpacePhotos.Name;
+    // MainDiv.textContent = SpacePhotos.Name;
     imgDiv.src = SpacePhotos.IMG;
     linkDiv.href = SpacePhotos.LINK;
 
-    mainContainer.appendChild(linkDiv);
+    // MainContainer.appendChild(linkDiv);
     // linkDiv.appendChild(MainDiv);
-    linkDiv.appendChild(imgDiv);
+    // linkDiv.appendChild(imgDiv);
 
     MainDiv.className = "MainDiv";
     imgDiv.className = "imgDiv";
     linkDiv.className = "linkDiv";
 
+    // document.body.appendChild(MainContainer);
+    MainContainer.appendChild(imgDiv);
     
 });
+

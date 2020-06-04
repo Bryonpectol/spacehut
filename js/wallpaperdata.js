@@ -2,21 +2,21 @@ export const photos = [
     {
         "name": "Solar System",
         "id" : 1,
-        "img" : "/images/solar-icon.png",
+        "img" : "/images/wallpapers/planet.jpg",
         "link" : "/html/solar.html",
         "pic-credit" : "Galaxy by Iconic from the Noun Project"
     },
     {
         "name" : "Telescopes",
         "id" : 2,
-        "img" : "/images/telescope-icon.png",
+        "img" : "/images/wallpapers/planet2.jpg",
         "link" : "/html/telescopes.html",
         "pic-credit" : ""
     },
     {
         "name" : "Stars",
         "id" : 3,
-        "img" : "/images/sun-icon.png",
+        "img" : "/images/wallpapers/planet3.jpg",
         "link" : "/html/stars.html",
         "pic-credit" : "sun by Randomhero from the Noun Project"
     },
