@@ -6,18 +6,6 @@
   .imgicon {
     width: 100px;
   }
-
-  img {
-      border: 2px solid #081526;
-      padding: 15px;
-      border-radius: 25px;
-      box-shadow: 5px 5px 5px #7EB3BF;
-  }
-
-  img:hover {
-      box-shadow: none;
-      border: 2px solid #2481A6;
-  }
   
   @font-face {
       font-family: Odin;
@@ -141,6 +129,8 @@
       margin-left: 10%;
       border: 10px solid white;
     }
+
+    
   
     .navdesktop {
       display: none;
@@ -192,12 +182,31 @@
       display: none;
     }
 
+    .h2-mobile {
+        padding: 5px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'Odin', 'Times New Roman', Times, serif;
+        font-size: 60px;
+        text-align: center;
+      }
+
     .img-paypal-mobile {
         margin-left: 25%;
         margin-top: 25px;
         margin-bottom: 40px;
         width: 20vh;
+        border: 2px solid #081526;
+        padding: 15px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px #7EB3BF;
       }
+  
+    .img-paypal-mobile:hover {
+        box-shadow: none;
+        border: 2px solid #2481A6;
+    }
 
       .img-paypal-desk {
           display: none;
@@ -250,6 +259,10 @@
         margin-left: 45%;
         margin-top: 20px;
         margin-bottom: 40px;
+      }
+
+      .h2-mobile {
+        display: none;
       }
   
     .mobile-main-div {
