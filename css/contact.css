@@ -43,6 +43,12 @@ p {
 
 @media only screen and (max-width: 1080px) {
 
+  .imgiconham {
+    width: 100px;
+    text-align: center;
+    margin-left: 32%;
+  }
+
   .contactDivMain {
     width: 40vh;
     margin-left: 10%;
@@ -137,6 +143,7 @@ p {
     width: 200px;
     display: flex;
     justify-content: center;
+    margin-left: 38%;
   }
 
   .nav-mobile-ul {

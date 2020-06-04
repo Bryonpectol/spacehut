@@ -26,6 +26,12 @@ src: url(/fonts/Moondance.otf);
 
   @media only screen and (max-width: 1080px) {
 
+  .imgiconham {
+    width: 100px;
+    text-align: center;
+    margin-left: 32%;
+  }
+
   h1 {
     font-family: 'Odin', 'Times New Roman', Times, serif;
     display: flex;
@@ -90,6 +96,8 @@ src: url(/fonts/Moondance.otf);
     width: 200px;
     display: flex;
     justify-content: center;
+    /* text-align: center; */
+    margin-left: 38%;
   }
 
   .nav-mobile-ul {
