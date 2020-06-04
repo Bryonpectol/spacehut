@@ -73,6 +73,21 @@ src: url(/fonts/Moondance.otf);
       /* transform: translate(0, 20, 0); */
       box-shadow: #7EB3BF 5px 5px 5px;
     }
+
+    .buttonham {
+      background-color: #081526;
+      height: 100px;
+      text-align: left;
+    }
+  
+    .hamimg {
+      width: 100px;
+    }
+  
+    .hamDiv {
+      width: 100%;
+      background-color: #081526;
+    }
   
     .navdesktop {
       display: none;

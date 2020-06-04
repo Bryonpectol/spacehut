@@ -45,6 +45,21 @@ src: url(/fonts/Moondance.otf);
 
   }
 
+  .buttonham {
+    background-color: #081526;
+    height: 100px;
+    text-align: left;
+  }
+
+  .hamimg {
+    width: 100px;
+  }
+
+  .hamDiv {
+    width: 100%;
+    background-color: #081526;
+  }
+
   .weekly-photo-desk {
     display: none;
   }
