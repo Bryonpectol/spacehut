@@ -127,6 +127,19 @@ src: url(/fonts/Moondance.otf);
       line-height: 5vh;
     }
 
+    .p-about-mobile-donate {
+      /* padding: 5px; */
+      color: black;
+      /* display: flex; */
+      justify-content: center;
+      font-family: 'helvetica', Arial, serif;
+      /* flex-wrap: wrap; */
+      margin-top: 2vh;
+      font-size: 20px;
+      line-height: 5vh;
+      text-align: center;
+    }
+
     .p-about-desk {
       display: none;
     }
