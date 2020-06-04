@@ -118,7 +118,7 @@ src: url(/fonts/Moondance.otf);
     .p-about-mobile {
       /* padding: 5px; */
       color: black;
-      display: flex;
+      /* display: flex; */
       justify-content: center;
       font-family: 'helvetica', Arial, serif;
       /* flex-wrap: wrap; */
