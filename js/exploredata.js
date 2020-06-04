@@ -61,5 +61,12 @@ export const categories = [
         "img" : "/images/alien-icon.png",
         "link" : "/html/aliens.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
+    },
+    {
+        "name" : "Astroids / Comets",
+        "id" : 9,
+        "img" : "/images/comet-icon.png",
+        "link" : "/html/astroids.html",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
     }
 ]

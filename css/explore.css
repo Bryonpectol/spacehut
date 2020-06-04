@@ -236,6 +236,19 @@
         /* padding: 50px; */
     }
 
+    .footer-desk {
+      width: 100%;
+      height: 15vh;
+      background-color: #081526;
+    }
+  
+    .footer-text {
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
     .navmobile {
       display: none;
     }

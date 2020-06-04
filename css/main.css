@@ -116,6 +116,8 @@ src: url(/fonts/Moondance.otf);
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #0F3759;
+    padding: 15px;
   }
 
   .h2-weekly-desk {
@@ -225,6 +227,8 @@ src: url(/fonts/Moondance.otf);
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #0F3759;
+    padding: 15px;
   }
 
   .h2-weekly-mobile {
