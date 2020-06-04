@@ -1,3 +1,5 @@
+function MyFunction () {
+
 let NavMobileElement = document.getElementById("navmobile");
 let ImgIconMobile = document.getElementById("imgicon-mobile");
 let NavMobileUl = document.getElementById("nav-mobile-ul");
@@ -32,3 +34,4 @@ NavMobileA4.ClassName = "none";
  }
 
 document.body.appendChild(menuBtn);
+}
