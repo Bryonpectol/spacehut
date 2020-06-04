@@ -208,6 +208,10 @@
       box-shadow: #7EB3BF 5px 5px 5px;
     }
 
+    .hamDiv {
+      display: none;
+    }
+
     h1 {
         text-align: center;
         margin-top: 50px;

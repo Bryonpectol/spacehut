@@ -222,6 +222,10 @@ p {
     flex-wrap: wrap;
     font-family: 'Odin', 'Times New Roman', Times, serif;
   }
+
+  .hamDiv {
+    display: none;
+  }
   
   .contactlinks {
     /* text-align: center; */

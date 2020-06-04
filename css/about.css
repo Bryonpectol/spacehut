@@ -263,6 +263,10 @@ src: url(/fonts/Moondance.otf);
     box-shadow: #7EB3BF 5px 5px 5px;
   }
 
+  .hamDiv {
+    display: none;
+  }
+
   .a-paypal-desk {
     margin-left: 25%;
     width: 20vh;

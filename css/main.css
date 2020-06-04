@@ -139,7 +139,7 @@ src: url(/fonts/Moondance.otf);
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: 'Odin', 'Times New Roman', Times, serif;
-    background-color: #0F3759;
+    background-color: #2481A6;
     padding: 15px;
   }
 
@@ -241,6 +241,10 @@ src: url(/fonts/Moondance.otf);
     box-shadow: #7EB3BF 5px 5px 5px;
   }
 
+  .hamDiv {
+    display: none;
+  }
+
   .mobile-main-div {
     display: none;
   }
@@ -250,7 +254,7 @@ src: url(/fonts/Moondance.otf);
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: 'Odin', 'Times New Roman', Times, serif;
-    background-color: #0F3759;
+    background-color: #2481A6;
     padding: 15px;
   }
 
@@ -263,6 +267,13 @@ src: url(/fonts/Moondance.otf);
   }
 
   .second-desk-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .third-desk-div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -292,6 +303,12 @@ src: url(/fonts/Moondance.otf);
     background-color: #0F3759;
     height: 100vh;
     background-image: url("/images/space.jpg");
+  }
+
+  .third-desk-main {
+    background-color: #0F3759;
+    height: 100vh;
+    background-image: url("/images/third.jpg");
   }
 
   .h1-desk {

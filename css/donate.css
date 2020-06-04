@@ -273,6 +273,10 @@
       box-shadow: #7EB3BF 5px 5px 5px;
     }
 
+    .hamDiv {
+        display: none;
+      }
+
     .img-paypal-mobile {
         display: none;
     }
