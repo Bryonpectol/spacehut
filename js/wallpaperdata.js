@@ -23,49 +23,49 @@ export const photos = [
     {
         "name" : "Galaxies",
         "id" : 4,
-        "img" : "/images/galaxy-icon.png",
+        "img" : "/images/wallpapers/planet4.jpg",
          "link" : "/html/galaxies.html",
          "pic-credit" : "Galaxy by Victoruler from the Noun Project"
     },
     {
         "name" : "Astronauts",
         "id" : 5,
-        "img" : "/images/astronaut-icon.png",
+        "img" : "/images/wallpapers/planet5.jpg",
         "link" : "/html/astronaut.html",
         "pic-credit" : "Astronaut by Symbolon from the Noun Project"
     },
     {
         "name" : "Constellations",
         "id" : 6,
-        "img" : "/images/constellation-icon.png",
+        "img" : "/images/wallpapers/planet6.jpg",
         "link" : "/html/constellations.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
         "name" : "Countries / Companies",
         "id" : 7,
-        "img" : "/images/flag-icon.png",
+        "img" : "/images/wallpapers/planet7.jpg",
         "link" : "/html/countries.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
         "name" : "Rockets",
-        "id" : 7,
-        "img" : "/images/rocket-icon.png",
+        "id" : 8,
+        "img" : "/images/wallpapers/planet8.jpg",
         "link" : "/html/rockets.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
         "name" : "Extra-Terresitral Life",
-        "id" : 8,
-        "img" : "/images/alien-icon.png",
+        "id" : 9,
+        "img" : "/images/wallpapers/planet9.jpg",
         "link" : "/html/aliens.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
         "name" : "Astroids / Comets",
-        "id" : 9,
-        "img" : "/images/comet-icon.png",
+        "id" : 10,
+        "img" : "/images/wallpapers/planet10.jpg",
         "link" : "/html/astroids.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     }

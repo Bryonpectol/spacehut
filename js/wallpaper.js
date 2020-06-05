@@ -30,7 +30,7 @@ PhotoBoxes.forEach(SpacePhotos => {
     // linkDiv.appendChild(MainDiv);
     // linkDiv.appendChild(imgDiv);
 
-    MainDiv.className = "MainDiv";
+    // MainDiv.className = "MainDiv";
     imgDiv.className = "imgDiv";
     linkDiv.className = "linkDiv";
 

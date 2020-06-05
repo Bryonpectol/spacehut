@@ -51,6 +51,26 @@ src: url(/fonts/Moondance.otf);
 
   }
 
+  .imgDiv {
+    display: none;
+  }
+
+  .MainDiv {
+    display: none;
+  }
+
+  .mainDiv-desk {
+    display: none;
+  }
+
+  .third-desk-div {
+    display: none;
+  }
+
+  #conainter {
+    display: none;
+  }
+
   .buttonham {
     background-color: #081526;
     height: 100px;
@@ -258,6 +278,16 @@ src: url(/fonts/Moondance.otf);
     padding: 15px;
   }
 
+  .h2-weekly-desk-wall {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #2481A6;
+    padding: 15px;
+    font-size: 40px;
+  }
+
   .h2-weekly-mobile {
     display: none;
   }
@@ -307,7 +337,7 @@ src: url(/fonts/Moondance.otf);
 
   .third-desk-main {
     background-color: #0F3759;
-    height: 100vh;
+    height: 180vh;
     background-image: url("/images/third.jpg");
   }
 
@@ -315,17 +345,25 @@ src: url(/fonts/Moondance.otf);
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
-  .conainter {
+  #conainter {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .imgDiv {
     width: 65vh;
-    padding: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
   }
 
   .h1-desk {
