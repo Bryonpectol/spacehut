@@ -85,6 +85,7 @@ src: url(/fonts/Moondance.otf);
       background-color: #081526;
       height: 100px;
       text-align: left;
+      border: none;
     }
   
     .hamimg {
@@ -94,6 +95,7 @@ src: url(/fonts/Moondance.otf);
     .hamDiv {
       width: 100%;
       background-color: #081526;
+      border: none;
     }
   
     .navdesktop {

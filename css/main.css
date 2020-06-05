@@ -30,6 +30,11 @@ src: url(/fonts/Moondance.otf);
     width: 100px;
     text-align: center;
     margin-left: 32%;
+    border: none;
+  }
+
+  #ham {
+    border: none;
   }
 
   h1 {
@@ -75,15 +80,18 @@ src: url(/fonts/Moondance.otf);
     background-color: #081526;
     height: 100px;
     text-align: left;
+    border: none;
   }
 
   .hamimg {
     width: 100px;
+    border: none;
   }
 
   .hamDiv {
     width: 100%;
     background-color: #081526;
+    border: none;
   }
 
   .weekly-photo-desk {
@@ -286,6 +294,10 @@ src: url(/fonts/Moondance.otf);
     background-color: #2481A6;
     padding: 15px;
     font-size: 40px;
+  }
+  
+  .wallpapersLink {
+    text-decoration: none;;
   }
 
   .h2-weekly-mobile {
