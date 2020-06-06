@@ -171,6 +171,21 @@ src: url(/fonts/Moondance.otf);
     padding: 15px;
   }
 
+  .h2-weekly-mobile-wall {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 17vh;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #2481A6;
+    padding: 15px;
+    padding-top: 55px;
+    width: 15vh;
+    height: 5vh;
+    margin-left: 35%;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
   .h2-weekly-desk {
     display: none;
   }
@@ -297,7 +312,8 @@ src: url(/fonts/Moondance.otf);
   }
   
   .wallpapersLink {
-    text-decoration: none;;
+    text-decoration: none;
+    list-style-type: none;
   }
 
   .h2-weekly-mobile {
