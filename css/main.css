@@ -365,8 +365,10 @@ src: url(/fonts/Moondance.otf);
 
   .third-desk-main {
     background-color: #0F3759;
-    height: 180vh;
-    background-image: url("/images/third.jpg");
+    height: 190vh;
+    /* background-image: url("/images/weekly.jpg"); */
+    width: 100%;
+    background-repeat: no-repeat;
   }
 
   .MainDiv {

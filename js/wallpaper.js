@@ -34,8 +34,11 @@ PhotoBoxes.forEach(SpacePhotos => {
     imgDiv.className = "imgDiv";
     linkDiv.className = "linkDiv";
 
-    // document.body.appendChild(MainContainer);
-    MainContainer.appendChild(imgDiv);
     
+
+    // document.body.appendChild(MainContainer);
+    MainContainer.appendChild(linkDiv);
+    linkDiv.setAttribute('download', imgDiv);
+    linkDiv.appendChild(imgDiv);
 });
 
