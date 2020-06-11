@@ -68,5 +68,12 @@ export const categories = [
         "img" : "/images/comet-icon.png",
         "link" : "/html/astroids.html",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
-    }
+    },
+    {
+        "name" : "Wallpapers",
+        "id" : 9,
+        "img" : "/images/image-icon.png",
+        "link" : "/html/wallpapers.html",
+        "pic-credit" : "Image by Alfa Design from the Noun Project"
+    },
 ]
