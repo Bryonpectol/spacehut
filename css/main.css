@@ -303,12 +303,49 @@ src: url(/fonts/Moondance.otf);
 
   .h2-weekly-desk-wall {
     color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 10vh;
     font-family: 'Odin', 'Times New Roman', Times, serif;
     background-color: #2481A6;
     padding: 15px;
     font-size: 40px;
+    height: 50px;
+  }
+
+  .wallpaperDivDesk {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h2-weekly-desk-wall-real {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 17vh;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #2481A6;
+    padding: 15px;
+    padding-top: 55px;
+    width: 15vh;
+    height: 5vh;
+    margin-left: 35%;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .h2-weekly-mobile-wall {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 17vh;
+    font-family: 'Odin', 'Times New Roman', Times, serif;
+    background-color: #2481A6;
+    padding: 20px;
+    padding-top: 25px;
+    width: 15vh;
+    height: 5vh;
+    margin-left: 28%;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style-type: none;
   }
   
   .wallpapersLink {
@@ -338,9 +375,10 @@ src: url(/fonts/Moondance.otf);
 
   .third-desk-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
   }
 
   .weekly-photo-desk {
@@ -370,10 +408,13 @@ src: url(/fonts/Moondance.otf);
 
   .third-desk-main {
     background-color: #0F3759;
-    height: 190vh;
+    height: 100vh;
     background-image: url("/images/thirdagain.jpg");
     width: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
 
   .MainDiv {
