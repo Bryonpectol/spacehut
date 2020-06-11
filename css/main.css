@@ -316,6 +316,11 @@ src: url(/fonts/Moondance.otf);
     list-style-type: none;
   }
 
+  .wallpapersLink:active {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
   .h2-weekly-mobile {
     display: none;
   }
@@ -366,7 +371,7 @@ src: url(/fonts/Moondance.otf);
   .third-desk-main {
     background-color: #0F3759;
     height: 190vh;
-    /* background-image: url("/images/weekly.jpg"); */
+    background-image: url("/images/thirdagain.jpg");
     width: 100%;
     background-repeat: no-repeat;
   }
