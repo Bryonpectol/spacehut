@@ -181,6 +181,48 @@
       /* transform: translate(0, 20, 0); */
       box-shadow: #7EB3BF 5px 5px 5px;
     }
+
+    .MainDiv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+
+    .alink {
+        /* width: 200px; */
+        /* height: 180px; */
+        /* text-align: center; */
+        text-decoration: none;
+        color: #081526;
+    }
+
+    .itemDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: #081526 solid 2px;
+        border-radius: 25px;
+        width: 60%;
+        padding: 60px;
+        margin: 25px;
+        height: 250px;
+    }
+
+    .telimg {
+        display: flex;
+        justify-content: center;
+        /* height: 100px; */
+        width: 150px;
+        margin-left: 12%;
+    }
+
+    .teltext {
+        width: 100px;
+        margin-left: 25%;
+        text-decoration: none;
+    }
   
   }
   
