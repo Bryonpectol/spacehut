@@ -122,15 +122,18 @@
         background-color: #081526;
         height: 100px;
         text-align: left;
+        border: none;
       }
     
       .hamimg {
         width: 100px;
+        border: none;
       }
     
       .hamDiv {
         width: 100%;
         background-color: #081526;
+        border: none;
       }
   
     .h2-weekly-mobile {
