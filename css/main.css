@@ -178,12 +178,13 @@ src: url(/fonts/Moondance.otf);
     font-family: 'Odin', 'Times New Roman', Times, serif;
     background-color: #2481A6;
     padding: 15px;
-    padding-top: 60px;
+    padding-top: 75px;
     width: 15vh;
     height: 5vh;
     margin-left: 35%;
     text-decoration: none;
     list-style-type: none;
+    font-size: 50px;
   }
 
   .wallpapersLink {
