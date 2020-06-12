@@ -1,0 +1,487 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .imgicon {
+    width: 100px;
+  }
+  
+  @font-face {
+    font-family: Odin;
+    src: url(/fonts/odin.otf);
+  }
+  
+  @font-face {
+    font-family: SpaceMono;
+    src: url(/fonts/SpaceMono-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: spacejunkXL;
+    src: url(/fonts/spacejunkXL.ttf);
+  }
+  
+  @font-face {
+    font-family: Moondance;
+    src: url(/fonts/Moondance.otf);
+  }
+  
+  
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Phone */
+  
+  @media only screen and (max-width: 1080px) {
+    .imgiconham {
+      width: 100px;
+      text-align: center;
+      margin-left: 32%;
+    }
+  
+    .contactDivMain {
+      width: 40vh;
+      margin-left: 10%;
+      border: 2px solid #081526;
+      border-radius: 40px;
+      height: 70vh;
+      padding: 10px;
+      margin-top: 50px;
+      box-shadow: 5px 5px 5px #081526;
+      margin-bottom: 30px;
+    }
+  
+    p {
+      text-align: center;
+      margin-top: 2vh;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-family: "Odin", "Times New Roman", Times, serif;
+      font-size: 45px;
+    }
+  
+    .contactlinks {
+      /* text-align: center; */
+      margin-top: 5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      border: 2px solid #081526;
+      width: 75px;
+      text-decoration: none;
+      color: #081526;
+      padding: 50px;
+      margin-left: 39%;
+      box-shadow: 5px 5px 5px #081526;
+      border-radius: 10px;
+      font-size: 30px;
+      font-family: "Odin", "Times New Roman", Times, serif;
+    }
+  
+    .contactlinks:hover {
+      background-color: #081526;
+      color: white;
+      box-shadow: none;
+    }
+  
+    .buttonham {
+      background-color: #081526;
+      height: 100px;
+      text-align: left;
+      border: none;
+    }
+  
+    .hamimg {
+      width: 100px;
+    }
+  
+    .hamDiv {
+      width: 100%;
+      background-color: #081526;
+      border: none;
+    }
+  
+    .navdesktop {
+      display: none;
+    }
+  
+    .nav-desk-ul {
+      display: none;
+    }
+  
+    .nav-desk-li {
+      display: none;
+    }
+  
+    .nav-desk-a {
+      display: none;
+    }
+  
+    .navmobile {
+      width: 100%;
+      height: 55vh;
+      display: flex;
+      background-color: #081526;
+      justify-content: center;
+    }
+  
+    .imgicon-mobile {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      margin-left: 38%;
+    }
+  
+    .nav-mobile-ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    .nav-mobile-li {
+      list-style-type: none;
+      padding-left: 150px;
+      padding-right: 150px;
+      margin-top: 3vh;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .nav-mobile-a {
+      text-decoration: none;
+      color: white;
+      background-color: #2481a6;
+      padding: 50px;
+      padding-right: 200px;
+      padding-left: 200px;
+      border-radius: 50px;
+      font-size: 50px;
+      font-family: "Moondance", "Times", cursive;
+    }
+  
+    .nav-mobile-a:hover {
+      color: #0f3759;
+      background-color: white;
+      /* transform: translate(0, 20, 0); */
+      box-shadow: #7eb3bf 5px 5px 5px;
+    }
+  
+    h1 {
+      text-align: center;
+      /* margin-top: 10vh; */
+      font-family: "Odin", "Times New Roman", Times, serif;
+      background-color: white;
+      margin-left: 0px;
+      width: 50%;
+      height: 170px;
+      font-size: 65px;
+      padding-top: 30px;
+    }
+  
+    .MainDiv {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* padding: 20px; */
+    }
+  
+    .alink {
+      width: 150px;
+      text-align: center;
+      height: 60px;
+      text-decoration: none;
+      color: #081526;
+      background-color: #2481a6;
+      border: 2px solid white;
+      font-size: 30px;
+      padding: 20px;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 42vh;
+      margin-left: 50px;
+      margin-bottom: 0px;
+      font-size: 50px;
+    }
+  
+    .itemDiv {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: #081526 solid 2px;
+      border-radius: 25px;
+      width: 60%;
+      padding: 60px;
+      margin-right: 100px;
+      margin-top: 40px;
+      height: 255px;
+    }
+  
+    .telimg {
+      /* height: 100px; */
+      width: 500px;
+      /* margin-left: 35%; */
+      margin-top: 50px;
+    }
+  
+    .teltext {
+      width: 100px;
+      margin-left: 25%;
+      text-decoration: none;
+    }
+  
+    body {
+      background-image: url("/images/spitzerphonebg.jpg");
+      background-attachment: fixed;
+      background-size: 100%;
+    }
+  
+    .abouttel {
+      width: 75%;
+      /* margin-left: 15%; */
+      margin-top: 50px;
+      margin-bottom: 31px;
+      background-color: white;
+      padding: 20px;
+    }
+  
+    .secondDiv {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* padding: 20px; */
+    }
+  
+    footer {
+        background-color: #081526;
+        color: white;
+    }
+  }
+  
+  /* Desktop */
+  
+  @media only screen and (min-width: 1081px) {
+    .contactDivMain {
+      width: 75vh;
+      margin-left: 33%;
+      border: 2px solid #081526;
+      border-radius: 40px;
+      height: 70vh;
+      padding: 10px;
+      margin-top: 50px;
+      box-shadow: 5px 5px 5px #081526;
+    }
+  
+    h1 {
+      text-align: center;
+      /* margin-top: 10vh; */
+      font-family: "Odin", "Times New Roman", Times, serif;
+      background-color: white;
+      margin-left: 25%;
+      width: 50%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      /* font-size: 65px; */
+    }
+  
+    p {
+      text-align: center;
+      margin-top: 2vh;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-family: "Odin", "Times New Roman", Times, serif;
+    }
+  
+    .hamDiv {
+      display: none;
+    }
+  
+    .contactlinks {
+      /* text-align: center; */
+      margin-top: 5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      border: 2px solid #081526;
+      width: 75px;
+      text-decoration: none;
+      color: #081526;
+      padding: 10px;
+      margin-left: 42%;
+      box-shadow: 5px 5px 5px #081526;
+      border-radius: 10px;
+      font-family: "Odin", "Times New Roman", Times, serif;
+    }
+  
+    .contactlinks:hover {
+      background-color: #081526;
+      color: white;
+      box-shadow: none;
+    }
+  
+    .navdesktop {
+      width: 100%;
+      display: flex;
+      background-color: #081526;
+      position: fixed;
+    }
+  
+    .nav-desk-ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav-desk-li {
+      list-style-type: none;
+      margin-top: 6vh;
+      margin-left: 50px;
+    }
+  
+    .nav-desk-a {
+      text-decoration: none;
+      color: white;
+      background-color: #2481a6;
+      padding: 20px;
+      border-radius: 50px;
+      font-family: "Moondance", "Times", cursive;
+    }
+  
+    .nav-desk-a:hover {
+      color: #0f3759;
+      background-color: white;
+      /* transform: translate(0, 20, 0); */
+      box-shadow: #7eb3bf 5px 5px 5px;
+    }
+  
+    body {
+      background-image: url("/images/spitzerbg.jpg");
+      background-attachment: fixed;
+      background-size: 100%;
+    }
+  
+    .MainDiv {
+      display: flex;
+      flex-direction: column;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+  
+      height: 110vh;
+      /* padding: 20px; */
+    }
+  
+    .secondDiv {
+      display: flex;
+      flex-direction: column;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+      /* background-image: url("/images/hubblesec.jpg"); */
+      /* background-size: 100%;; */
+      height: 110vh;
+      margin-top: 15vh;
+      /* padding: 20px; */
+    }
+  
+    .alink {
+      width: 62px;
+      /* height: 180px; */
+      /* text-align: center; */
+      text-decoration: none;
+      color: #081526;
+      background-color: #2481a6;
+      border: 2px solid white;
+      font-size: 30px;
+      padding: 20px;
+      margin: 20px;
+      margin-bottom: 0px;
+      margin-top: 32vh;
+      /* position: fixed; */
+    }
+  
+    .alink:hover {
+      background-color: #0f3759;
+      color: white;
+    }
+  
+    .abouttel {
+      width: 75%;
+      margin-left: 15%;
+      margin-top: 50px;
+      margin-bottom: 31px;
+      background-color: white;
+      padding: 20px;
+    }
+  
+    .itemDiv {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: #081526 solid 2px;
+      border-radius: 25px;
+      width: 200px;
+      padding: 10px;
+      margin: 25px;
+      height: 250px;
+    }
+  
+    .telimg {
+      /* height: 100px; */
+      width: 500px;
+      margin-left: 35%;
+      margin-top: 50px;
+    }
+  
+    .teltext {
+      width: 100px;
+      margin-left: 25%;
+      text-decoration: none;
+    }
+  
+    .footer-desk {
+      width: 100%;
+      height: 15vh;
+      background-color: #081526;
+    }
+  
+    .footer-text {
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+  
+    .navmobile {
+      display: none;
+    }
+  
+    .imgicon-mobile {
+      display: none;
+    }
+  
+    .nav-mobile-ul {
+      display: none;
+    }
+  
+    .nav-mobile-li {
+      display: none;
+    }
+  
+    .nav-mobile-a {
+      display: none;
+    }
+  
+    .nav-mobile-a:hover {
+      display: none;
+    }
+  }
+  
