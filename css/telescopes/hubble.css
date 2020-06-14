@@ -212,6 +212,26 @@ p {
     font-size: 50px;
   }
 
+  .alinkstars {
+    width: 100px;
+    text-align: center;
+    height: 60px;
+    text-decoration: none;
+    color: #081526;
+    background-color: #2481a6;
+    border: 2px solid white;
+    font-size: 30px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 42vh;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-size: 50px;
+  }
+
   .itemDiv {
     display: flex;
     justify-content: center;
@@ -226,6 +246,13 @@ p {
   }
 
   .telimg {
+    /* height: 100px; */
+    width: 500px;
+    /* margin-left: 35%; */
+    margin-top: 50px;
+  }
+
+  .telimgstars {
     /* height: 100px; */
     width: 500px;
     /* margin-left: 35%; */
@@ -438,6 +465,13 @@ p {
     /* height: 100px; */
     width: 500px;
     margin-left: 35%;
+    margin-top: 50px;
+  }
+
+  .telimgstars {
+    /* height: 100px; */
+    width: 400px;
+    margin-left: 37%;
     margin-top: 50px;
   }
 
