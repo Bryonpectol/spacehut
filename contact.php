@@ -11,6 +11,7 @@
     $LastName = $_GET['lastname'];
 
     echo $FirstName;
+    echo $LastName;
 ?>
 
 <!-- <form method="POST">
