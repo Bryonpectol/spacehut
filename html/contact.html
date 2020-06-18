@@ -54,7 +54,7 @@
 
   <h1>Contact</h1>
 
-  <p>Site under construction</p>
+  <!-- <p>Site under construction</p>
 
   <p>Contact form does not work right now. If you need to contact us, use the links below.</p>
 
@@ -66,7 +66,15 @@
 
   <p>If you would like to donate to Space Hut to help build the website and other applications, click the link below!</p>
 
-  <a class="contactlinks" href="/donate.html">Donate!</a>
+  <a class="contactlinks" href="/donate.html">Donate!</a> -->
+
+  <form action="/php/contact.php" method="POST">
+    <input name="firstname" type="text" placeholder="First Name" />
+    <br />
+    <input name="lastname" type="text" placeholder="Last Name" />
+    <br />
+    <input name="submit" type="submit" />
+  </form>
 
   </div>
 
