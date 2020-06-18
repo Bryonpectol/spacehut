@@ -12,3 +12,11 @@
 
     echo $FirstName;
 ?>
+
+<!-- <form method="POST">
+    <input name="firstname" type="text" placeholder="First Name" />
+    <br />
+    <input name="lastname" type="text" placeholder="Last Name" />
+    <br />
+    <input name="submit" type="submit" />
+  </form> -->
