@@ -31,11 +31,19 @@
   text-align: center;
   margin-top: 50px;
   font-family: 'Odin', 'Times New Roman', Times, serif;
+  font-size: 50px;
 }
 
 /* Phone */
 
   @media only screen and (max-width: 1080px) {
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-family: 'Odin', 'Times New Roman', Times, serif;
+      font-size: 90px;
+    }
 
     .imgiconham {
       width: 100px;
@@ -133,11 +141,6 @@
       border-radius: 10px;
       padding: 20px;
   }
-
-    h1 {
-      font-size: 50px;
-      margin-top: 75px;
-    }  
     
     .MainDiv {
       width: 100%;
