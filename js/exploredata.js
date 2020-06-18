@@ -70,10 +70,25 @@ export const categories = [
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
+        "name" : "Black Holes",
+        "id" : 10,
+        "img" : "/images/black-hole-icon.png",
+        "link" : "/html/blackholes.html",
+        "pic-credit" : "Image by Alfa Design from the Noun Project"
+    },
+    {
+        "name" : "Nebulae",
+        "id" : 11,
+        "img" : "/images/nebula-icon.png",
+        "link" : "/html/nebulae.html",
+        "pic-credit" : "Image by Alfa Design from the Noun Project"
+    },
+    {
         "name" : "Wallpapers",
-        "id" : 9,
+        "id" : 12,
         "img" : "/images/image-icon.png",
         "link" : "/html/wallpapers.html",
         "pic-credit" : "Image by Alfa Design from the Noun Project"
     },
+    
 ]
