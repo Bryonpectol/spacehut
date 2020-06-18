@@ -69,11 +69,13 @@
   <a class="contactlinks" href="/donate.html">Donate!</a> -->
 
   <form name="contact" method="POST" data-netlify="true">
-    <input class="contactlinks" name="firstname" type="text" placeholder="First Name" />
+    <input class="contactlinks" name="firstname" type="text" placeholder="First Name" required />
     <br />
-    <input class="contactlinks" name="lastname" type="text" placeholder="Last Name" />
+    <input class="contactlinks" name="lastname" type="text" placeholder="Last Name" required />
     <br />
-    <input class="contactlinks" name="email" type="email" placeholder="Email" />
+    <input class="contactlinks" name="email" type="email" placeholder="Email" required />
+    <br />
+    <textarea class="contactlinks" name="Message" rows="4" cols="60" required placeholder="Comments and questions" maxlength="300"></textarea>
     <br />
     <input class="contactlinkssub" name="submit" type="submit" />
   </form>
