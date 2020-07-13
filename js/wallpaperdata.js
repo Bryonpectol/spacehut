@@ -68,5 +68,12 @@ export const photos = [
         "img" : "/images/wallpapers/planet10.jpg",
         "link" : "/images/wallpapers/planet10.jpg",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
+    },
+    {
+        "name" : "new",
+        "id" : 11,
+        "img" : "/images/wallpapers/phone1.jpg",
+        "link" : "/images/wallpapers/phone1.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
     }
 ]

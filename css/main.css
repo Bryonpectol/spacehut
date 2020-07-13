@@ -414,6 +414,12 @@ src: url(/fonts/Moondance.otf);
     background-image: url("/images/space.jpg");
   }
 
+  .fourth-desk-main {
+    background-color: #0F3759;
+    height: 100vh;
+    background-image: url("/images/fourth.jpg");
+  }
+
   .third-desk-main {
     background-color: #0F3759;
     height: 100vh;
