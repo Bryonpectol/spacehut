@@ -13,7 +13,8 @@ const PhotoBoxes = photos.map(SpacePhotos => {
         ID: CatBox.id,
         IMG: CatBox.img,
         LINK: CatBox.link,
-        PhoneIMG: CatBox.phonemg,
+        PhoneIMG: CatBox.phoneimg,
+        PhoneLINK: CatBox.phonelink
     };
 
 });
@@ -23,11 +24,13 @@ PhotoBoxes.forEach(SpacePhotos => {
     let imgDiv = document.createElement("img");
     let phoneImgDiv = document.createElement("img");
     let linkDiv = document.createElement("a");
+    let phoneLinkDiv = document.createElement("a");
 
     // MainDiv.textContent = SpacePhotos.Name;
     imgDiv.src = SpacePhotos.IMG;
-    phoneImgDiv.scr = SpacePhotos.PhoneIMG;
+    phoneImgDiv.src = SpacePhotos.PhoneIMG;
     linkDiv.href = SpacePhotos.LINK;
+    phoneLinkDiv.href = SpacePhotos.PhoneLINK;
 
     // MainContainer.appendChild(linkDiv);
     // linkDiv.appendChild(MainDiv);
@@ -36,12 +39,14 @@ PhotoBoxes.forEach(SpacePhotos => {
     // MainDiv.className = "MainDiv";
     imgDiv.className = "imgDiv";
     linkDiv.className = "linkDiv";
+    phoneLinkDiv.className = "phonelinkDiv";
     phoneImgDiv.className = "phoneDiv";
 
     
 
     // document.body.appendChild(MainContainer);
     MainContainer.appendChild(linkDiv);
+    MainContainer.appendChild(phoneLinkDiv);
     linkDiv.setAttribute('download', imgDiv);
     linkDiv.setAttribute('download', phoneImgDiv);
     linkDiv.appendChild(phoneImgDiv);

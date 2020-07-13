@@ -70,10 +70,50 @@ export const photos = [
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     },
     {
-        "name" : "new",
+        "name" : "phone1",
         "id" : 11,
-        "img" : "/images/wallpapers/phone1.jpg",
-        "link" : "/images/wallpapers/phone1.jpg",
+        "phoneimg" : "/images/wallpapers/phone1.jpg",
+        "phonelink" : "/images/wallpapers/phone1.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    }
+    ,
+    {
+        "name" : "phone2",
+        "id" : 12,
+        "phoneimg" : "/images/wallpapers/phone2.jpg",
+        "phonelink" : "/images/wallpapers/phone2.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    }
+    ,
+    {
+        "name" : "phone3",
+        "id" : 13,
+        "phoneimg" : "/images/wallpapers/phone3.jpg",
+        "phonelink" : "/images/wallpapers/phone3.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    }
+    ,
+    {
+        "name" : "phone4",
+        "id" : 14,
+        "phoneimg" : "/images/wallpapers/phone4.jpg",
+        "phonelink" : "/images/wallpapers/phone4.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    }
+    ,
+    {
+        "name" : "phone5",
+        "id" : 15,
+        "phoneimg" : "/images/wallpapers/phone.jpg",
+        "phonelink" : "/images/wallpapers/phone.jpg",
+        "pic-credit" : "constellation by tulpahn from the Noun Project"
+    }
+    ,
+    {
+        "name" : "phone6",
+        "id" : 16,
+        "phoneimg" : "/images/wallpapers/phone1.jpg",
+        "phonelink" : "/images/wallpapers/phone1.jpg",
         "pic-credit" : "constellation by tulpahn from the Noun Project"
     }
 ]

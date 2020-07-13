@@ -66,6 +66,12 @@
       padding-top: 30px;
       margin-left: 5%;
     }
+
+    .linkDiv{
+      display: flex;
+      justify-content: center;
+      /* margin-left: 30px; */
+    }
   
     .MainDiv {
       
@@ -79,8 +85,10 @@
       
     }
   
-    #conainter {
-      
+    .conainter {
+      display: flex;
+      justify-content: center;
+      margin-left: 30px;
     }
   
     .buttonham {
